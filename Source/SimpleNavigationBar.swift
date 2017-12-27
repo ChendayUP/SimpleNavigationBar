@@ -74,7 +74,7 @@ public extension UIViewController {
             self.navBarTitleColor = .black
 //            self.navBarBarTintColor = .white
             self.navBarBackImage = WRNavigationBar.defaultNavBarDarkBackImage
-            self.navBarBackgroundImage = UIImage.image(rect: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 64+20), color: UIColor.white)
+            self.navBarBackgroundImage = image(rect: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: 84), color: UIColor.white)
             self.statusBarStyle = .default
         case .transparent:
             self.navBarBackgroundAlpha = 0
@@ -117,6 +117,15 @@ public extension UIViewController {
         }
         self.navigationItem.leftBarButtonItem = button
     }
-
     
+    private func image(rect: CGRect , color: UIColor) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(rect.size, true, 0.0)
+        guard let context = UIGraphicsGetCurrentContext() else { return nil }
+        // From now on, the context gets ended if any return happens
+        defer { UIGraphicsEndImageContext() }
+        context.setFillColor(color.cgColor)
+        context.fill(rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        return image
+    }
 }
