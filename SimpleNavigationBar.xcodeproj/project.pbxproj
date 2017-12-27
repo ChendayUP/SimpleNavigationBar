@@ -10,9 +10,6 @@
 		04FAE9DE1FF33D8D0095F0EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAE9DD1FF33D8D0095F0EF /* AppDelegate.swift */; };
 		04FAE9E51FF33D8D0095F0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FAE9E41FF33D8D0095F0EF /* Assets.xcassets */; };
 		04FAE9E81FF33D8D0095F0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FAE9E61FF33D8D0095F0EF /* LaunchScreen.storyboard */; };
-		04FAE9F71FF342E10095F0EF /* SimpleNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAE9F41FF342E10095F0EF /* SimpleNavigationBar.swift */; };
-		04FAE9F81FF342E10095F0EF /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAE9F51FF342E10095F0EF /* WRNavigationBar.swift */; };
-		04FAE9F91FF342E10095F0EF /* NavigationBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAE9F61FF342E10095F0EF /* NavigationBackgroundView.swift */; };
 		04FAEA031FF344B10095F0EF /* NormalListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA001FF344B10095F0EF /* NormalListController.swift */; };
 		04FAEA041FF344B10095F0EF /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA011FF344B10095F0EF /* BaseNavigationController.swift */; };
 		04FAEA061FF3450A0095F0EF /* AppDelegate+NavBarAppearence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA051FF3450A0095F0EF /* AppDelegate+NavBarAppearence.swift */; };
@@ -20,6 +17,9 @@
 		04FAEA151FF347D30095F0EF /* GradualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA0C1FF347D30095F0EF /* GradualViewController.swift */; };
 		04FAEA171FF347D30095F0EF /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA0E1FF347D30095F0EF /* NewViewController.swift */; };
 		04FAEA181FF347D30095F0EF /* WhiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA0F1FF347D30095F0EF /* WhiteViewController.swift */; };
+		04FAEA201FF3814A0095F0EF /* SimpleNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA1D1FF3814A0095F0EF /* SimpleNavigationBar.swift */; };
+		04FAEA211FF3814A0095F0EF /* WRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA1E1FF3814A0095F0EF /* WRNavigationBar.swift */; };
+		04FAEA221FF3814A0095F0EF /* NavigationBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FAEA1F1FF3814A0095F0EF /* NavigationBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,6 @@
 		04FAE9E41FF33D8D0095F0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FAE9E71FF33D8D0095F0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FAE9E91FF33D8D0095F0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04FAE9F41FF342E10095F0EF /* SimpleNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNavigationBar.swift; sourceTree = "<group>"; };
-		04FAE9F51FF342E10095F0EF /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
-		04FAE9F61FF342E10095F0EF /* NavigationBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBackgroundView.swift; sourceTree = "<group>"; };
 		04FAEA001FF344B10095F0EF /* NormalListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalListController.swift; sourceTree = "<group>"; };
 		04FAEA011FF344B10095F0EF /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		04FAEA051FF3450A0095F0EF /* AppDelegate+NavBarAppearence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+NavBarAppearence.swift"; sourceTree = "<group>"; };
@@ -38,6 +35,9 @@
 		04FAEA0C1FF347D30095F0EF /* GradualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradualViewController.swift; sourceTree = "<group>"; };
 		04FAEA0E1FF347D30095F0EF /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		04FAEA0F1FF347D30095F0EF /* WhiteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteViewController.swift; sourceTree = "<group>"; };
+		04FAEA1D1FF3814A0095F0EF /* SimpleNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleNavigationBar.swift; sourceTree = "<group>"; };
+		04FAEA1E1FF3814A0095F0EF /* WRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WRNavigationBar.swift; sourceTree = "<group>"; };
+		04FAEA1F1FF3814A0095F0EF /* NavigationBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,22 +70,12 @@
 		04FAE9DC1FF33D8D0095F0EF /* SimpleNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				04FAE9F31FF342E10095F0EF /* SimpleNavigationBar */,
+				04FAEA1C1FF3814A0095F0EF /* Source */,
 				04FAE9FE1FF344B10095F0EF /* Demo */,
 				04FAE9DD1FF33D8D0095F0EF /* AppDelegate.swift */,
 				04FAE9E41FF33D8D0095F0EF /* Assets.xcassets */,
 				04FAE9E61FF33D8D0095F0EF /* LaunchScreen.storyboard */,
 				04FAE9E91FF33D8D0095F0EF /* Info.plist */,
-			);
-			path = SimpleNavigationBar;
-			sourceTree = "<group>";
-		};
-		04FAE9F31FF342E10095F0EF /* SimpleNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				04FAE9F41FF342E10095F0EF /* SimpleNavigationBar.swift */,
-				04FAE9F51FF342E10095F0EF /* WRNavigationBar.swift */,
-				04FAE9F61FF342E10095F0EF /* NavigationBackgroundView.swift */,
 			);
 			path = SimpleNavigationBar;
 			sourceTree = "<group>";
@@ -111,6 +101,16 @@
 			);
 			path = ViewController;
 			sourceTree = "<group>";
+		};
+		04FAEA1C1FF3814A0095F0EF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				04FAEA1D1FF3814A0095F0EF /* SimpleNavigationBar.swift */,
+				04FAEA1E1FF3814A0095F0EF /* WRNavigationBar.swift */,
+				04FAEA1F1FF3814A0095F0EF /* NavigationBackgroundView.swift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -183,15 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04FAEA211FF3814A0095F0EF /* WRNavigationBar.swift in Sources */,
+				04FAEA201FF3814A0095F0EF /* SimpleNavigationBar.swift in Sources */,
 				04FAEA031FF344B10095F0EF /* NormalListController.swift in Sources */,
 				04FAEA041FF344B10095F0EF /* BaseNavigationController.swift in Sources */,
 				04FAEA181FF347D30095F0EF /* WhiteViewController.swift in Sources */,
 				04FAEA061FF3450A0095F0EF /* AppDelegate+NavBarAppearence.swift in Sources */,
 				04FAEA141FF347D30095F0EF /* TransparentController.swift in Sources */,
-				04FAE9F71FF342E10095F0EF /* SimpleNavigationBar.swift in Sources */,
-				04FAE9F81FF342E10095F0EF /* WRNavigationBar.swift in Sources */,
+				04FAEA221FF3814A0095F0EF /* NavigationBackgroundView.swift in Sources */,
 				04FAEA171FF347D30095F0EF /* NewViewController.swift in Sources */,
-				04FAE9F91FF342E10095F0EF /* NavigationBackgroundView.swift in Sources */,
 				04FAE9DE1FF33D8D0095F0EF /* AppDelegate.swift in Sources */,
 				04FAEA151FF347D30095F0EF /* GradualViewController.swift in Sources */,
 			);
