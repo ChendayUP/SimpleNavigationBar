@@ -13,9 +13,9 @@ extension AppDelegate {
     func setNavBarAppearence()
     {
         // 设置深色返回按钮图片
-        WRNavigationBar.defaultNavBarDarkBackImage = #imageLiteral(resourceName: "后退-黑色")
+        WRNavigationBar.defaultNavBarDarkBackImage = UIImage(named: "后退-黑色")
         // 设置浅色返回按钮图片
-        WRNavigationBar.defaultNavBarWhiteBackImage = #imageLiteral(resourceName: "后退-白")
+        WRNavigationBar.defaultNavBarWhiteBackImage = UIImage(named: "后退-白")
         // 背景图片 这里是渐变图片
         var size = CGSize(width: UIScreen.main.bounds.size.width, height: 64+20)
         WRNavigationBar.defaultNavBarBackgroundImage = UIImage.gradient(size: size, colors:[UIColor(hex: 0x72D989), UIColor(hex: 0x47D3C9)])
