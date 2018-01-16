@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SimpleNavigationBar"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "easy use NavigationBar"
   s.homepage         = "https://github.com/ChendayUP/SimpleNavigationBar"
   s.license          = { :type => "MIT", :file => "LICENSE" }
@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source_files  = "Source/*.swift"
   s.requires_arc     = true
   s.ios.deployment_target = "8"
-  s.description  = "easy use NavigationBar" 
+  s.description  = "easy use NavigationBar, one line complete" 
   s.module_name = 'SimpleNavigationBar'
 end
